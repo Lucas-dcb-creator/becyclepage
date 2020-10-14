@@ -1,0 +1,30 @@
+/* Importing Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+/* Importing all component files */
+
+@import url('components/container.css');
+@import url('components/avatar.css');
+@import url('components/button.css');
+@import url('components/banner.css');
+@import url('components/card.css');
+
+
+#myFakeElement { color:red ; }
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	background-color: rgb(220,220,220);
+	margin: 0px;
+}
+
+h1,h2,h3 {
+	font-family: 'Palanquin Dark', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
